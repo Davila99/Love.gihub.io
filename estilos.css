@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("/imagen/imagen.jpg");
+}
+.contenedor{
+    background: rgb(187, 83, 179);
+    
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+h1{
+    font-size: xx-large;
+    padding: 15%;
+    
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    background-color: rgb(251, 251, 251);
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
